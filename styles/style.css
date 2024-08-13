@@ -107,6 +107,7 @@ body {
 
 /* header style */
 .header {
+
     padding-top: 50px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(24, 24, 24) 100%);
 }
@@ -265,6 +266,11 @@ body {
 
 /* mobile responsive */
 @media screen and (max-width:576px) {
+    .header {
+        height: 1024px;
+        margin-bottom: 60px;
+    }
+
     .width {
         max-width: 90%;
         margin: 0 auto;
@@ -357,6 +363,14 @@ body {
         font-weight: 900;
     }
 
+    .habit-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .habit-div {
+        padding: 0 40px;
+    }
 }
 
 
