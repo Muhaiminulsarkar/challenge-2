@@ -335,6 +335,49 @@ body {
     font-weight: 700;
 }
 
+/* unique style */
+.unique {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.parent {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+}
+
+
+
+.card-title {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.card:hover {
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 40deg);
+}
+
+.content-box img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(255, 64, 0, 0.925) 0px 20px 50px -25px;
+    transition: all 0.5 ease-in-out;
+
+}
+
+
+
+
 /* BMI style */
 .bmi-section {
     margin: 60px 0;
@@ -675,6 +718,10 @@ td {
 
     .select-factor {
         width: 100%;
+    }
+
+    .unique {
+        flex-direction: column;
     }
 }
 
