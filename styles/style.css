@@ -277,14 +277,14 @@ body {
     border-radius: 18px;
     display: flex;
     gap: 20px;
-    padding: 50px 0;
+    padding: 50px 40px;
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: space-evenly;
 }
 
 .run-image {
-    width: 400px;
+    max-width: 400px;
     height: 300px;
     object-fit: cover;
     border-radius: 18px;
@@ -308,13 +308,13 @@ body {
     padding: 35px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 35px;
-    /* column-gap: 20px; */
+    row-gap: 45px;
+    column-gap: 20px;
 }
 
 .team-image img {
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 370px;
     object-fit: cover;
     border-radius: 18px;
 }
@@ -327,7 +327,7 @@ body {
     text-align: left;
     position: absolute;
     bottom: 0;
-    left: 50px;
+    left: 57px;
 }
 
 .team-name {
